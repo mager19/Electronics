@@ -4,7 +4,7 @@
 /*	Import styles
 /* ---------------------------------------------------------------------- */
 
-@import url("../css/normalize.css");
+
 
 /* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
 @import url("../css/bootstrap/bootstrap.css");
@@ -18,9 +18,7 @@
 @import url("../css/owl.carousel.css");
 /* Font Awesome */
 @import url("../css/font-awesome.min.css");
-/* Animate and more*/
-@import url("../css/animate.css");
-@import url("../css/bootstrap-lightbox.css");
+
 
 
 /* ESTILOS GENERALES*/
@@ -98,4 +96,77 @@ img{
 .contenedor{
 
 	padding: 4em 0em;
+}
+
+
+
+/*  Top  */
+
+#top{
+
+	background-color: #e5322c;
+}
+
+.bienvenida h3{
+
+	color:#fff;
+	font-size: 16px;
+	margin-top: 12px;
+}
+
+#top ul{
+
+	margin-top: 10px;
+}
+
+#top ul li{
+	
+	color: #fff;
+	display: inline-block;
+	list-style: none;
+	margin-left: 1em;
+}
+
+#top ul li i{
+
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+#top ul li span{
+	margin-left: 0.5em;
+}
+
+
+/* Slide */
+
+#slide{
+
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+}
+
+#slide ul li{
+
+	display: inline-block;
+	list-style: none;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+#slide ul li a{
+
+	border: 2px solid transparent;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+#slide ul li a:hover{
+
+	border: 2px solid #fff;
+
 }
