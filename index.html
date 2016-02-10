@@ -44,7 +44,7 @@
 	
 <!-- Slide -->
 <!-- Aqui se puede modificar la info del slide -->
-<section id="slide" class="contenedor">
+<section id="slide" class="">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -62,16 +62,84 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-12">
+			<div class="col-md-12 contenido-slide">
 				<h2>
-					Iphone 6
+					Servicio Técnico Perú
 				</h2>
+
+				<div class="owl-carousel">
+				<!-- Item 1 -->
+				  <div> 
+					
+					<div class="col-md-8">
+						<h3>IPHONE 6 - 6S</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et laudantium repellendus sint molestiae est, quam quisquam in iusto nesciunt fugit fuga iure rem sapiente tempore, sit dolorum veritatis minima quos.</p>
+						<a href="#">Cotizar Servicio</a>
+					</div>
+
+					<div class="col-md-2">
+						<img src="img/iphone-min.png" alt="iphone 6">
+					</div>
+			
+				  </div>
+
+				  <!-- Item 2 -->
+				  <div> 
+					
+					<div class="col-md-8">
+						<h3>IPAD AIR / MINI</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et laudantium repellendus sint molestiae est, quam quisquam in iusto nesciunt fugit fuga iure rem sapiente tempore, sit dolorum veritatis minima quos.</p>
+						<a href="#">Cotizar Servicio</a>
+					</div>
+
+					<div class="col-md-2">
+						<img src="img/ipad.png" alt="iphone 6">
+					</div>
+			
+				  </div>
+				  
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 <!-- End Slide -->
-</body>
+
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script>
+	$(document).ready(function(){
+
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    center:true,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:false,
+            loop:false
+        }
+    }
+})
+	});
+</script>
+
+</body>
 </html>
