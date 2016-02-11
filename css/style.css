@@ -182,6 +182,7 @@ img{
 
 	margin-top: 2em;
 	padding: 0 2em;
+	margin-bottom: 2em;
 }
 
 .contenido-slide h2{
@@ -215,3 +216,49 @@ img{
 	padding: 0.5em 2em;
 }
 
+
+
+/* DESTACADO */
+
+.item-destacado{
+
+	padding: 1em;
+}
+
+.item-destacado h3{
+
+	color:#fff;
+	font-size: 1.8em;
+}
+
+.item-destacado p{
+
+	color:#fff;
+	font-size: 1em;
+	margin-bottom: 2em;
+}
+
+.item-destacado a{
+
+	border:1px solid #fff;
+	color:#fff;
+	padding: 0.5em 1em;
+
+}
+
+
+#item1{
+
+	background-color: #083D56;
+
+}
+
+#item2{
+
+	background-color: #CA2C3F;
+}
+
+#item3{
+
+	background-color: #00B8A9;
+}
