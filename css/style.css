@@ -104,7 +104,8 @@ img{
 
 #top{
 
-	background-color: #e5322c;
+	background-color: #f0f0f0;
+	padding: 1em 0;
 }
 
 .bienvenida h3{
@@ -121,7 +122,7 @@ img{
 
 #top ul li{
 	
-	color: #fff;
+	color: #ff2e27;
 	display: inline-block;
 	list-style: none;
 	margin-left: 1em;
@@ -129,13 +130,18 @@ img{
 
 #top ul li i{
 
-	color: #fff;
+	color: #ff2e27;
 	font-size: 1.5em;
 	font-weight: 200;
 }
 
 #top ul li span{
 	margin-left: 0.5em;
+}
+
+.derecha{
+
+	text-align: right;
 }
 
 
@@ -149,18 +155,18 @@ img{
 	padding: 2em 0;
 }
 
-#slide ul li{
+.menu ul li{
 
 	display: inline-block;
 	list-style: none;
-	margin-left: 1em;
+	margin-left: 
 	
 }
 
-#slide ul li a{
+.menu ul li a{
 
 	border: 2px solid transparent;
-	color: #fff;
+	color: #ff2e27;
 	font-size: 18px;
 	font-weight: 500;
 	padding: 0.5em;
@@ -171,9 +177,9 @@ img{
 	transition: 0.5s ease all;
 }
 
-#slide ul li a:hover{
+.menu ul li a:hover{
 
-	border: 2px solid #fff;
+	border: 2px solid #ff2e27;
 
 }
 
@@ -261,4 +267,55 @@ img{
 #item3{
 
 	background-color: #00B8A9;
+}
+
+
+/* Somos*/
+
+#somos{
+
+	background-color: #eee;
+}
+
+#somos h2{
+
+	font-size: 3em;
+	color:#4d4d4d;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+#left-somos img{
+
+	margin-top: 3em;
+}
+
+#parrafo-somos{
+
+	padding: 0 1em;
+	margin-bottom: 1em;
+}
+
+.item-somos{
+
+	margin: 1em 0;
+}
+
+.item-somos img{
+
+	float: left;
+	margin-right: 1em;
+}
+
+.item-somos p{
+
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+.item-somos h3{
+
+	color:#4d4d4d;
+	font-size: 1.3em;
+	text-align: center;
 }
