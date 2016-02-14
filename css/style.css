@@ -19,6 +19,9 @@
 /* Font Awesome */
 @import url("../css/font-awesome.min.css");
 
+/*Acordion*/
+@import url("../css/zozo.accordion.css");
+
 
 
 /* ESTILOS GENERALES*/
@@ -153,6 +156,11 @@ img{
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 2em 0;
+}
+
+.menu{
+
+	text-align: right;
 }
 
 .menu ul li{
@@ -318,4 +326,128 @@ img{
 	color:#4d4d4d;
 	font-size: 1.3em;
 	text-align: center;
+}
+
+
+/* Trabajamos */
+
+#trabajamos{
+
+	background-image: url("../img/noisy_net.png");
+}
+
+#trabajamos h2{
+
+	color:#fff;
+	font-size: 3em;
+	margin-top:2em;
+	padding: 0 0.1em;
+	text-align: center;
+}
+
+#demo-accordion{
+
+	padding: 0 2em;
+	margin-top: 2em;
+}
+
+
+.z-title{
+
+	font-size: 1.2em;
+}
+
+
+
+/* Footer */
+
+#footer{
+
+	background-color: #eee;
+}
+
+#footer h2{
+
+	font-size: 3em;
+	color:#4d4d4d;
+	margin-bottom:1em;
+	
+}
+
+
+#footer input{
+
+	border:none;
+	margin-bottom: 1em;
+	margin-right: 5%;
+	padding: 0.5em 1em;
+	width: 35%;
+}
+
+
+#footer textarea{
+
+	border:none;
+	padding: 0.5em 1em;
+	width: 75.5%;
+}
+
+#submit{
+
+	background-color: #ff2e27;
+	color:#fff;
+	margin-top: 0.5em;
+
+}
+
+
+#footer h3{
+
+	border-bottom: 1px solid #4d4d4d;
+	border-bottom-width: 3px;
+	color:#4d4d4d;
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+#footer ul li{
+
+	margin-top: 1.5em;
+}
+
+#footer ul li span{
+
+	font-size: 1.1em;
+	font-weight: 700;
+	margin-right: 1em;
+}
+
+#social-footer{
+
+	text-align: center;
+	margin-top: 1em;
+}
+
+#social-footer ul{
+
+	margin-top: 10px;
+}
+
+#social-footer ul li{
+	
+	color: #ff2e27;
+	display: inline-block;
+	list-style: none;
+	margin-left: 1em;
+}
+
+#social-footer ul li i{
+
+	color: #ff2e27;
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+#social-footer ul li span{
+	margin-left: 0.5em;
 }
