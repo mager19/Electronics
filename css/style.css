@@ -148,6 +148,17 @@ img{
 }
 
 
+#telefonos{
+
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+#telefonos i{
+
+	color:#075E54!important;
+}
+
 /* Slide */
 
 #slide{
